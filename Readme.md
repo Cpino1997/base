@@ -47,7 +47,22 @@ $ sudo npm i -g nodemon
 
 ### -Paso 2:
 
-Crearemos la estructura de nuestro proyecto, para ello. crearemos la siguiente estructura en la carpeta principal, bootstrap pueden instalarlo desde npm o importarlo por cdn.
+Crearemos la estructura de nuestro proyecto, o bien podemos clonar el proyecto:
+
+``` bash
+
+$ git clone https://github.com/PinoLabs/base.git
+
+$ cd base
+
+$ npm install
+
+$ node app.js
+
+```
+
+Estructura del Proyecto
+
 
 ``` bash
 
@@ -103,19 +118,6 @@ Crearemos la estructura de nuestro proyecto, para ello. crearemos la siguiente e
 
 ```
 
-o bien podemos clonar el proyecto:
-
-``` bash
-
-$ git clone https://github.com/PinoLabs/base.git
-
-$ cd base
-
-$ npm install
-
-$ node app.js
-
-```
 
 ### -Paso 3:
 Configuraremos nuestro enviroment para conectar la base de datos, para ello necesitamos ir al archivo env/.env
